@@ -57,7 +57,7 @@ helloWorld()
   .catch((error) => console.log(error))
   .finally(() => console.log("Finalizó"));
 
-//Regex
+//Regex:------------------------------
 const regexData = /([0-9]{4})-([0-9]{2})-([0-9]{2})/;
 const match = regexData.exec("2020-05-14");
 const year = match[1];
